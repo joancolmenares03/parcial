@@ -3,6 +3,7 @@ def elementosRepetidos(lista1):
     for x in lista1:
         if lista1.count(x) > 1:
             print(f"Hay elementos que se repiten en la lista")
+            aux = 0
             break
         else:
             aux +=1
