@@ -7,13 +7,13 @@ def elementosRepetidos(lista1):
             break
         else:
             aux +=1
-    if aux == 0:
+    if aux > 0:
         print("No hay elementos que se repitan")
     
 def vocalesContar(cadena):
     listaCadena = cadena.split()
     vocales = {"a","e","i","o","u"}
-    print(listaCadena)
+    print(cadena)
     aux = 0
     if cadena == None:
         print("No existe")
